@@ -1,0 +1,19 @@
+.cabecalho{
+    align-items: center;
+    background-color: var(--cabeçalho-mobile);
+    box-shadow: var(--sombras);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.cabecalho__menu i::before{
+    content: var(--menu);
+    font-size: 24px;
+}
+.cabecalho__notificacao i::before{
+    content: var(--notificação);
+    font-size: 24px;
+}
+.cabecalho__logo{
+    width: 40px;
+}

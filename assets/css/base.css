@@ -1,0 +1,48 @@
+:root{
+    /*CORES*/
+    --corpo: #1D232A;
+    --cabeçalho: #1D232A;
+    --cabeçalho-mobile: #15191C;
+    --menu_lateral: #15191C;
+    --cartão: #2C343A;
+    --fonte: #FFFFFF;
+    --fonte-alternativa: #95999C;
+    --links: #0480DC;
+    --botão: #0480DC;
+
+    /*SOMBRA*/
+    --sombras: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
+    /*ESPAÇAMENTO*/
+    --interno-botão: 8px;
+    --entre-elementos-do-botão: 8px;
+    --entre-elementos: 16px 8px;
+    --interno-do-corpo: 16px;
+    --entre-o-título-do-cartão-de-recentes-e-seus-itens: 24px;
+
+    /*ICONES*/
+    --camisas: "\e900";
+    --carrinho: "\e901";
+    --inicio: "\e902";
+    --Integrantes: "\e903";
+    --menu: "\e904";
+    --moeda: "\e905";
+    --notificação: "\e906";
+    --pico: "\e908";
+    --picos: "\e909";
+    --pinturas: "\e90a";
+    --play: "\e90b";
+    --relogio: "\e90c";
+    --seta-baixo: "\e90d";
+    --videos: "\e90e";
+    --visualizacao: "\e90f";
+}
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+body{
+    background-color: var(--corpo);
+    font-family: "Open Sans", "icones", sans-serif;
+    color: var(--fonte);
+}
