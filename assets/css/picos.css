@@ -1,0 +1,8 @@
+.cartao__picos__mapa{
+    width: 100%;
+    height: 468px;  
+    background-image: url(../img/mapa-picos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

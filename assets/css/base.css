@@ -13,13 +13,6 @@
     /*SOMBRA*/
     --sombras: 0px 4px 4px rgba(0, 0, 0, 0.16);
 
-    /*ESPAÇAMENTO*/
-    --interno-botão: 8px;
-    --entre-elementos-do-botão: 8px;
-    --entre-elementos: 16px 8px;
-    --interno-do-corpo: 16px;
-    --entre-o-título-do-cartão-de-recentes-e-seus-itens: 24px;
-
     /*ICONES*/
     --camisas: "\e900";
     --carrinho: "\e901";
@@ -35,7 +28,7 @@
     --relogio: "\e90c";
     --seta-baixo: "\e90d";
     --videos: "\e90e";
-    --visualizacao: "\e90f";
+    --visualização: "\e90f";
 }
 @font-face {
     font-family: 'icones';
@@ -45,4 +38,10 @@ body{
     background-color: var(--corpo);
     font-family: "Open Sans", "icones", sans-serif;
     color: var(--fonte);
+}
+@media screen and (min-width: 1440px) {
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr ;
+    }
 }
