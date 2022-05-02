@@ -39,6 +39,11 @@ body{
     font-family: "Open Sans", "icones", sans-serif;
     color: var(--fonte);
 }
+.principal{
+    padding: 24px 16px;
+    display: grid;
+    gap: 16px;
+}
 @media screen and (min-width: 1440px) {
     body{
         display: grid;
