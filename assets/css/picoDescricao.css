@@ -55,3 +55,42 @@
 .pico__conteudo__imagem{
     width: 100%;
 }
+.secao_picos{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .pico__conteudo{
+        display: grid;
+        gap: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 2;
+        grid-template-areas: 
+        "pico__imagem pico__imagem mais-vistos"
+        "conteudo-pico conteudo-pico mais-vistos "
+        ;
+    }
+    .pico__imagem{
+        width: 100%;
+        border-radius: 25px;
+        grid-area: pico__imagem;
+    }
+    .conteudo-pico{
+        grid-area: conteudo-pico;
+    }
+    .secao_picos{
+        display: block;
+    }
+    .mais-vistos{
+        grid-row: span 2;
+    }
+    .pico__conteudo__descricao{
+        display: grid;
+        gap: 16px;
+    }
+    .pico__conteudo-titulo{
+        font-size: 2rem;
+    }
+    .pico__descricao__info{
+        
+    }
+}

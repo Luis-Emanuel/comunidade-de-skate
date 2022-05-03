@@ -1,4 +1,9 @@
-.cartao__picos__mapa{
+
+.principal-picos{
+    padding: 24px 16px;
+    display: grid;
+    gap: 16px;
+}.cartao__picos__mapa{
     width: 100%;
     height: 468px;  
     background-image: url(../img/mapa-picos.png);
@@ -9,4 +14,48 @@
 .cartao__botao--pico::before{
     content: var(--pico);
     font-size: 24px;
+}
+
+.cartao__info .cartao__botao{
+    align-self: flex-end ;
+}
+
+@media screen and (min-width: 1440px) {
+    .principal-picos{
+        display: grid;
+        column-gap: 32px;
+        padding: 16px 60px;
+        grid-column: 2;
+        grid-template-areas: 
+        "titulo-pagina titulo-pagina titulo-pagina"
+        "picos-mapa picos-mapa videos-recentes"
+        "mais-vistos mais-vistos mais-vistos"
+        ;
+        grid-template-rows: auto auto 1fr;
+        grid-template-columns: 1fr 1fr auto;
+    }
+    .titulo-pagina{
+        grid-area: titulo-pagina;
+    }
+    .picos-mapa{
+        grid-area: picos-mapa;
+    }
+    .videos-recentes{
+        grid-area: videos-recentes;
+    }
+    .mais-vistos{
+        grid-area: mais-vistos;
+    }
+    .secao_picos{
+        display: grid;
+        gap: 16px;
+        grid-template-columns:repeat(4, 1fr) ;
+        grid-template-rows: auto 1fr;
+        align-items: flex-start;
+ 
+    }
+    .titulo-secao{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 }
