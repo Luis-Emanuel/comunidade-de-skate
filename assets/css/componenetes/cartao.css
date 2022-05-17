@@ -1,0 +1,18 @@
+.cartao{
+    width: 100%;
+    border-radius: 15px;
+    background-color: var(--cartão);
+}
+.cartao__descricao{
+    padding: 16px;
+}
+.cartao__tituloDestaque{
+    font-weight: 400;
+}
+.cartao__titulo{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.cartao__info{
+    
+}
