@@ -4,6 +4,8 @@
 @import url(componenetes/icones.css);
 @import url(componenetes/texto.css);
 @import url(componenetes/sessao.css);
+@import url(componenetes/cartaoLateral.css);
+
 :root{
     /*CORES*/
     --corpo: #1D232A;
@@ -13,7 +15,7 @@
     --cartão: #2C343A;
     --fonte: #FFFFFF;
     --fonte-alternativa: #95999C;
-    --links: #0480DC;
+    --link: #0480DC;
     --botão: #0480DC;
 
     /*SOMBRA*/

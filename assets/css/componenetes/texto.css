@@ -28,3 +28,13 @@
     font-size: 0.875rem;
     margin-left: 10px;   
 }
+.texto__tituloMiniatura{
+    line-height: 24px; 
+    font-size:  0.875rem;
+    font-weight: 700;
+}
+.texto__link{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--link);
+}
