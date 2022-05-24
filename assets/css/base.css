@@ -1,3 +1,9 @@
+@import url(reset.css);
+@import url(componenetes/botao.css);
+@import url(componenetes/cartao.css);
+@import url(componenetes/icones.css);
+@import url(componenetes/texto.css);
+@import url(componenetes/sessao.css);
 :root{
     /*CORES*/
     --corpo: #1D232A;

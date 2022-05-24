@@ -1,0 +1,20 @@
+.botao__destaque{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--botão);
+    border-radius: 5px;
+    grid-column: span 2;
+    padding: 12px 0px;
+}
+.botao__simples{
+    display: flex;
+    justify-content: space-around;
+    justify-self: end;
+    background-color: var(--botão);
+    border-radius: 5px;
+    
+    padding: 5px;
+}

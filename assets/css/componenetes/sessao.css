@@ -1,0 +1,5 @@
+.sessao{
+    display: grid;
+    row-gap: 16px; 
+    margin-bottom: 16px;
+}
