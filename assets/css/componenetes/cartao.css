@@ -21,3 +21,6 @@
 .cartao__autor{
     grid-column: span 2;
 }
+@media screen and (min-width: 1440px){
+    
+}
