@@ -38,3 +38,12 @@
     font-size: 0.875rem;
     color: var(--link);
 }
+.texto__picos-maisVistos{
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 24px;
+}
+.texto_videoDestaque{
+    font-weight: 600;
+    font-size: 2rem;
+}

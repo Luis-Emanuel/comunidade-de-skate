@@ -25,3 +25,10 @@
     width: 1.5rem;
     margin-right: 5.33px;
 }
+@media screen and (min-width: 1440px) {
+    .perfil{ 
+        width: 48px;
+        
+    }
+
+}
