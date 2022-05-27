@@ -1,0 +1,32 @@
+.cartaoLateral{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    
+    .principal{
+        grid-template-columns: 1fr auto;
+        grid-template-areas: 
+        "titulo-pagina titulo-pagina"
+        "mapa-picos favoritos"
+        "mais-vistos mais-vistos"
+        ;
+    }
+    .titulo-pagina{
+        grid-area: titulo-pagina;
+    }
+    .mapa-picos{
+        grid-area: mapa-picos;
+    }
+    .favoritos{
+        display: block;
+        grid-area: favoritos;
+    }
+    .mais-vistos{
+        grid-area: mais-vistos;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .mais-vistos>.texto_tituloSessao{
+        grid-column: span 4;
+    }
+}

@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/cabeçalho.css">
     <link rel="stylesheet" href="assets/css/menu.css">
-    <link rel="stylesheet" href="assets/css/componenetes/cartaoPico.css"> 
+    <link rel="stylesheet" href="assets/css/componenetes/cartaoPico.css">
+    <link rel="stylesheet" href="assets/css/picos.css">
     <title>Picos</title>
 </head>
 <body>
@@ -31,12 +32,41 @@
         <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
     </nav>
     <main class="principal">
-        <h2 class="texto_tituloSessaoDestaque">Picos</h2>
-        <section class="sessao">
-            <article class="cartao__pico"></article>
-        </section>
-        <section class="sessao">
-            <h2 class="texto_tituloSessao">Vídeos mais vistos</h2>
+        <h2 class="texto_tituloSessaoDestaque titulo-pagina">Picos</h2>
+        <article class="sessao cartao__pico mapa-picos"></article>
+        <article class="cartao cartaoLateral favoritos">
+            <h3 class="texto__tituloCartao">Vídeos recentes</h3>
+            <a class="texto__link cartaoLateral__link" href="#">Ver todos</a>
+            <ul class="cartaoLateral__lista">
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_1.png" alt="">
+                    <h4 class="texto__tituloMiniatura">HZC - Love Machine</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_2.png" alt="">
+                    <h4 class="texto__tituloMiniatura">HZC - Vol. 3</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_3.png" alt="">
+                    <h4 class="texto__tituloMiniatura">HZC - Pescaria na Urca</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_4.png" alt="">
+                    <h4 class="texto__tituloMiniatura">Vidalocagi - Guerreiros do Asfalto</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+                <div class="cartaoLateral__lista__itens">
+                    <img class="cartaoLateral__lista__img" src="assets/img/miniatura_5.png" alt="">
+                    <h4 class="texto__tituloMiniatura">Vidalocagi - Não importa o nível</h4>
+                    <p class="texto__info">Júlia Fonseca</p>
+                </div>
+            </ul>
+        </article>
+        <section class="sessao mais-vistos">
+            <h2 class="texto_tituloSessao">Mais visitados</h2>
             <article class="cartao">
                 <img src="assets/img/artigo_1.jpg" alt="">
                 <div class="cartao__descricao" >
@@ -73,8 +103,7 @@
                     <a href="#" class="botao__simples pico"></a></a> 
                 </div>
             </article>
-        </section>
-        
+        </section>    
     </main>
     <script src="index.js"></script>
 </body>
